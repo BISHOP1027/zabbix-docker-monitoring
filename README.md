@@ -9,7 +9,7 @@ CPU 사용률 등 시스템 자원 상태를 실시간으로 감시하며 **메�
 Zabbix는 서버·네트워크·애플리케이션의 상태를 통합적으로 감시할 수 있는 오픈소스 모니터링 툴입니다.  
 본 프로젝트에서는 Zabbix의 핵심 기능을 중심으로 다음 목표를 달성했습니다.
 
-- Docker 환경에서 **Zabbix Server / Web / Agent / MySQL** 구성  
+- Docker 환경에서 **Zabbix Server / Web / Agent ** 구성  
 - **Host 및 템플릿 설정**을 통한 자원 모니터링 자동화  
 - **CPU 임계치 감지 트리거** 생성으로 문제 상황 자동 탐지  
 - **Gmail SMTP 연동**을 통한 실시간 메일 알림 구현  
@@ -37,7 +37,7 @@ zabbix-docker-monitoring/
 | 구분 | 설명 |
 |------|------|
 | **프로젝트 목표** | 자원 모니터링과 알림 자동화의 전체 흐름 구축 |
-| **기술 스택** | Docker, Zabbix, MySQL, Gmail SMTP |
+| **기술 스택** | Docker, Zabbix, Gmail SMTP |
 | **핵심 기능** | 서버 상태 감시, 트리거 기반 장애 감지, 메일 알림 |
 | **결과물** | 트리거 발생 시 Gmail로 실시간 알림 도착 확인 |
 
